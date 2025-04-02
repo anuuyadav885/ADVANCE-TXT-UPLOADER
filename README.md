@@ -31,7 +31,7 @@
 
 ## Deploy To Heroku
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Tushar557845/ADVANCE-TXT-UPLOADER)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/anuuyadav885/ADVANCE-TXT-UPLOADER)
 
 ## Deploy To Koyeb
 
