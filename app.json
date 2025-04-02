@@ -2,22 +2,37 @@
   "name": "advance-txt-uploader",
   "description": "A simple text file uploader using Node.js and Express",
   "repository": "https://github.com/anuuyadav885/ADVANCE-TXT-UPLOADER",
-  "keywords": ["node", "express", "file-upload"],
+  "keywords": [
+    "telegram bot",
+        "pyrogram"
+    ],
   "env": {
-    "NODE_ENV": {
-      "description": "Environment for Node.js",
-      "value": "production"
+     "API_ID":{
+            "description": "Get your telegram API ID from https://my.telegram.org",
+            "value":"24509126"
+        },
+        "API_HASH":{
+            "description":"Get your telegram API HASH from https://my.telegram.org",
+		    "value":"2c1e3e02b9e1b0a3f9c7955d5d55a1d5"
+        },
+        "BOT_TOKEN":{
+            "description":"Get from BotFather",
+            "value":"7610606652:AAHmjWuUgZBSBDhsFYbyy6WitPU37S_BwQk"
+        },
+        "AUTH_USERS":{
+            "description":"Admin/Owner/Friends ID Seperate by ','  Ex: 44578878,8878899",
+             "value":"6127347210"
     }
   },
   "buildpacks": [
     {
-      "url": "heroku/nodejs"
+      "url": "heroku/python"
     }
   ],
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "free"
+      "size": "standard-2x"
     }
   }
 }
