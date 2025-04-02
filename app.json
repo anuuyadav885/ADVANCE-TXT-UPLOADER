@@ -8,6 +8,9 @@
         "pyrogram"
     ],
     "env": {
+	     "NODE_ENV": {
+      "description": "Environment for Node.js",
+      "value": "production"
         "API_ID":{
             "description": "Get your telegram API ID from https://my.telegram.org",
             "value":"24509126"
