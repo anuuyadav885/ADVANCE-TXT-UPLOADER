@@ -1,6 +1,6 @@
 {
   "name": "advance-txt-uploader",
-  "description": "A simple text file uploader using Node.js and Express",
+  "description": "A simple text file uploader",
   "repository": "https://github.com/anuuyadav885/ADVANCE-TXT-UPLOADER",
   "keywords": [
     "telegram bot",
